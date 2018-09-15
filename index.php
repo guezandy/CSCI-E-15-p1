@@ -15,9 +15,8 @@
 				<img src="images/drew.jpg" alt="Loading...">
 			</div>
 			<div>
-				<h4>Cuban immigration raised in Miami, FL - living now in San Francisco, CA. Like writing code to make things move.</h4>
+				<h4>Cuban immigrant raised in Miami, FL - living now in San Francisco, CA. Like writing code to make things move.</h4>
 			</div>
-
 			<?php
 				$quotes = [
 					["Stay Hungry. Stay Foolish.", "Steve Jobs"],
