@@ -14,9 +14,20 @@
 				<img src="images/drew.jpg">
 			</div>
 			<div>
-				<h4>Cubanito de Miami - living now in San Francisco. Like writing code to make things move.</h4>
+				<h4>Cuban immigration raised in Miami, FL - living now in San Francisco, CA. Like writing code to make things move.</h4>
 			</div>
-			<div>Quote</div>
+
+			<?php
+				$quotes = [
+					["Stay Hungry. Stay Foolish.", "Steve Jobs"],
+					["Good Artists Copy, Great Artists Steal.", "Pablo Picasso"],
+					["Argue with idiots, and you become an idiot.", "Paul Graham"],
+					["Be yourself; everyone else is already taken.", "Oscar Wilde"],
+					["Simplicity is the ultimate sophistication.", "Leonardo Da Vinci"]
+				];
+				$random_quote = $quotes[mt_rand(0, count($quotes) - 1)];
+			?>
+			<div>Quote: <?php echo $random_quote[0]; ?> - <?php echo $random_quote[1]; ?></div>
 		</div>
 	</div>
 </body>
