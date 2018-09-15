@@ -27,7 +27,7 @@
 				];
 				$random_quote = $quotes[mt_rand(0, count($quotes) - 1)];
 			?>
-			<div>Quote: <?php echo $random_quote[0]; ?> - <?php echo $random_quote[1]; ?></div>
+			<div>Quote: <?=$random_quote[0]?> - <?=$random_quote[1]?></div>
 		</div>
 	</div>
 </body>

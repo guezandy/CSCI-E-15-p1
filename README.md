@@ -1,6 +1,6 @@
 # Project 1
 + By: *Andrew Rodriguez*
-+ Production URL: <http://p1.squareinches.com>
++ Production URL: <https://p1.squareinches.com>
 
 ## Outside resources
 
