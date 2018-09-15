@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang='en'>
 <head>
 	<title>Andrew Rodriguez</title>
 	<meta charset='utf-8'>
@@ -9,9 +9,10 @@
 	<div class="flex-container">
 		<div class="row"> 
 			<div>
-				<h1>Andrew Rodriguez</div>
+				<h1>Andrew Rodriguez</h1>
+			</div>
 			<div class="flex-item">
-				<img src="images/drew.jpg">
+				<img src="images/drew.jpg" alt="Loading...">
 			</div>
 			<div>
 				<h4>Cuban immigration raised in Miami, FL - living now in San Francisco, CA. Like writing code to make things move.</h4>
